@@ -1,0 +1,51 @@
+# -------------------------
+# Node.js
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# -------------------------
+# Environment Variables
+# -------------------------
+.env
+.env.local
+.env.development
+.env.production
+
+# -------------------------
+# WhatsApp Web JS Auth Files
+# -------------------------
+# LocalAuth stores login/session here
+.wwebjs_auth/
+.wwebjs_cache/
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+messages.txt
+messages2.txt
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Build / Runtime
+# -------------------------
+dist/
+build/
